@@ -11,7 +11,7 @@ cp updater.sh "/etc/updater/"
 echo "Set up a cronjob for everyday at 5am"
 if grep -q "/etc/updater/updater.sh" "/var/spool/cron/crontabs/$USER"; 
 then
-	echo "Cronjob allready set up"
+	echo "Cronjob already set up"
 else
 echo "0 5 * * * /etc/updater/updater.sh" >> /var/spool/cron/crontabs/$USER 
 fi
