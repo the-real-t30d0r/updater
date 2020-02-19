@@ -20,4 +20,5 @@ A cronjob its built-in to run the script **everyday at 5 AM,** and it **logs as 
 
     git clone https://github.com/teodorcucu/updater
     cd updater
+    chmod +x updater.sh
     sh updater.sh
