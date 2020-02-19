@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "by Teodor Cucu: ${GREEN}Updating Scripts${NOCOLOR}"
 RED="\033[1;31m"
 GREEN="\033[1;32m"
