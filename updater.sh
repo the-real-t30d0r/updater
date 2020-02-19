@@ -4,13 +4,13 @@ GREEN="\033[1;32m"
 NOCOLOR="\033[0m"
 dt=$(date '+%d-%m-%Y');
 echo "Create a dir /etc/updater/"
-mkdir "/etc/updater/"
+mkdir ~ "/etc/updater/"
 echo "Copy the script to the dir"
-cp updater.sh "/etc/updater/"
+cp ~ updater.sh "/etc/updater/"
 echo "Set up a cronjob for everyday at 5am"
 echo "0 5 * * * /etc/updater/updater.sh" >> /var/spool/cron/crontabs/$USER
 echo "Create a new dir for the updater logs"
-mkdir "/etc/updater/logs"
+mkdir ~ "/etc/updater/logs"
 echo "step 1: ${GREEN}Configure the Packages${NOCOLOR}"
 sudo dpkg --configure -a >> /etc/updater/logs/updaterlog.$dt.log
 echo "step 2: ${GREEN}Fix broken installs${NOCOLOR}"
