@@ -9,7 +9,7 @@ mkdir -p "/etc/updater/"
 echo "Copy the script to the dir"
 cp updater.sh "/etc/updater/"
 echo "Set up a cronjob for everyday at 5am"
-if grep -q "0 5 * * * /etc/updater/updater.sh" "/var/spool/cron/crontabs/$USER"; 
+if grep -q "/etc/updater/updater.sh" "/var/spool/cron/crontabs/$USER"; 
 then
 	echo "Cronjob allready set up"
 else
