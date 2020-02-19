@@ -2,7 +2,7 @@ echo "by Teodor Cucu: ${GREEN}Updating Scripts${NOCOLOR}"
 RED="\033[1;31m"
 GREEN="\033[1;32m"
 NOCOLOR="\033[0m"
-dt=$(date '+%d-%m-%Y');
+dt=$(date '+%d-%m-%Y')
 echo "Create a dir /etc/updater/"
 mkdir -p "/etc/updater/"
 echo "Copy the script to the dir"
