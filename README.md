@@ -1,7 +1,7 @@
 
 # Updater Script for Linux Enviroments.
 
-A small but nice shell script to protect us from security gaps caused by forgotten updates.
+A small but nice shell script to protect you from security gaps caused by forgotten updates.
 
 What it does?
 
