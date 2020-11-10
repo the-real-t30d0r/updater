@@ -27,7 +27,7 @@ Save the file and exit.
 
 **How to use?**
 
-    sudo git clone https://github.com/teodorcucu/updater
+    sudo git clone https://github.com/xalqatraz/updater
     cd updater
     sudo chmod +x updater.sh
     sudo sh updater.sh
